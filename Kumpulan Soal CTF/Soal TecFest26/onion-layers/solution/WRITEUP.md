@@ -140,9 +140,3 @@ Recipe berurutan:
 5. `XOR` dengan key `Unkn0wn` (format UTF8)
 
 Kunci XOR di langkah 5 didapat dari known-plaintext attack di atas (misalnya dengan menjalankan `XOR` dulu pada potongan awal, atau menghitung manual).
-
-## 5. Pelajaran
-
-- **Encoding bukan enkripsi.** Base32, Hex, dan Base64 hanya mengubah representasi data, tanpa kerahasiaan sama sekali.
-- **XOR dengan key berulang itu lemah.** Jika sebagian plaintext bisa ditebak (misalnya format flag), key bisa dipulihkan langsung.
-- **Layering tidak menambah keamanan** kalau tiap layer bisa dikenali dan dibalik. Mengenali charset adalah kunci.
