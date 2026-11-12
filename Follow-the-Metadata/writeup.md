@@ -2,20 +2,20 @@
 
 **Category:** Forensics  
 **Difficulty:** Easy  
-**Flag:** `FLAG{metadata_tells_a_story}`
+**Flag:** `TecFest26{metadata_tells_a_story}`
 
 ## 1. Identify the real file type
 
-The attachment is named `evidence.jpg`, but the extension is not authoritative.
+The attachment is named `evidence.png`, but the extension is not authoritative.
 
 ```bash
-file evidence.jpg
+file evidence.png
 ```
 
 Expected result: a PNG image. The signature can also be checked directly:
 
 ```bash
-xxd -l 8 evidence.jpg
+xxd -l 8 evidence.png
 ```
 
 Expected bytes:
@@ -33,9 +33,9 @@ exiftool -a -G1 -s evidence.jpg
 Look for the XMP Dublin Core fields:
 
 ```text
-[XMP-dc] Creator     : 01:464c41477b6d657461
-[XMP-dc] Title       : 02:646174615f74656c6c73
-[XMP-dc] Description : 03:5f615f73746f72797d
+[XMP-dc] Creator     : 5465634665737432367b6d6574615f
+[XMP-dc] Title       : 646174615f74656c6c73
+[XMP-dc] Description : 5f615f73746f72797d
 ```
 
 The numeric prefixes indicate the fragment order. The values after the colon are hexadecimal text.
@@ -43,7 +43,7 @@ The numeric prefixes indicate the fragment order. The values after the colon are
 ## 3. Decode the fragments
 
 ```bash
-echo -n '464c41477b6d657461' | xxd -r -p
+echo -n '5465634665737432367b6d6574615f' | xxd -r -p
 echo -n '646174615f74656c6c73' | xxd -r -p
 echo -n '5f615f73746f72797d' | xxd -r -p
 ```
@@ -51,7 +51,7 @@ echo -n '5f615f73746f72797d' | xxd -r -p
 Outputs:
 
 ```text
-FLAG{meta
+TecFest26{meta_
 data_tells
 _a_story}
 ```
@@ -61,16 +61,16 @@ _a_story}
 Concatenate the decoded fragments in order 01, 02, 03:
 
 ```text
-FLAG{meta_tells_a_story}
+TecFest26{meta_tells_a_story}
 ```
 
-**Final flag:** `FLAG{metadata_tells_a_story}`
+**Final flag:** `TecFest26{metadata_tells_a_story}`
 
 ## Alternative: decode with Python
 
 ```python
 fragments = [
-    "464c41477b6d657461",
+    "5465634665737432367b6d6574615f",
     "646174615f74656c6c73",
     "5f615f73746f72797d",
 ]
