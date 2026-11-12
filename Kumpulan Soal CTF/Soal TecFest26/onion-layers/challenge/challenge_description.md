@@ -27,10 +27,10 @@ GNSDGZBVGE2TINRTGY3TMYZUG43GINTGGZRTINZXGY3TQNZYGU3TKNZWMY2TCNBTGVQTINJWG42DGNRS
 
 ## Hint
 
-| # | Biaya | Isi hint |
-|---|---|---|
-| 1 | 10 poin | Tidak semua layer berupa encoding. Ada satu layer yang hanya membalik urutan. |
-| 2 | 20 poin | Semua flag di event ini diawali `TecFest26{`. Apa yang terjadi jika kamu XOR ciphertext dengan teks yang sudah kamu ketahui? Perhatikan juga bahwa key-nya berulang. |
+| # | Isi hint |
+|---|---|
+| 1 | Tidak semua layer berupa encoding. Ada satu layer yang hanya membalik urutan. |
+| 2 | Semua flag di event ini diawali `TecFest26{`. Apa yang terjadi jika kamu XOR ciphertext dengan teks yang sudah kamu ketahui? Perhatikan juga bahwa key-nya berulang. |
 
 ## Flag
 
