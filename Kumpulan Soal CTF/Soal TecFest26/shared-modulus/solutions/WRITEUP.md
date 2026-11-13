@@ -134,9 +134,3 @@ e1 = 196611 | e2 = 771
 gcd = 3 | a = -128 | b = 32641
 Flag : TecFest26{c0mm0n_m0dulus_sh4r3d_n_br34ks_rs4}
 ```
-
-## 4. Pelajaran
-
-- **Jangan pernah memakai ulang modulus N** untuk beberapa pengguna. Siapa pun yang punya dua ciphertext dari plaintext yang sama bisa membukanya tanpa private key.
-- **Plaintext pendek tanpa padding** (textbook RSA) membuat `m^g < N`, sehingga akar bulat mudah diambil. Padding acak seperti OAEP menggagalkan serangan ini karena plaintext yang dienkripsi berbeda tiap kali.
-- **Gcd eksponen bukan 1 tidak menyelamatkan.** Penyerang hanya mendapat `m^g`, dan itu sering cukup.
