@@ -29,7 +29,7 @@ ct2.txt    ← ciphertext untuk cabang 2 (Base64)
 
 ## Hint
 
-| # | Isi hint |
+| No. | Isi hint |
 |---|---|
 | 1 | Buka kedua public key dan bandingkan isinya. Apa yang sama? Apa yang berbeda? |
 | 2 | Identitas Bézout: `a·e1 + b·e2 = gcd(e1, e2)`. Hitung `gcd`-nya, apakah benar bernilai 1? |
