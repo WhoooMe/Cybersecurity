@@ -6,7 +6,7 @@
 | Kesulitan | Medium |
 | Estimasi waktu | 20-40 menit |
 | Attachment | tidak ada |
-| Format flag | `TecFest26{handlerig_kodegit_namajalan}` |
+| Format flag | `TecFest26{usernameIG_kodegit_namajalan}` |
 
 ## Deskripsi (untuk peserta)
 
@@ -16,7 +16,7 @@
 >
 > Susun tiga potongan yang kamu temukan menjadi satu flag.
 >
-> **Format flag:** `TecFest26{handlerig_kodegit_namajalan}`
+> **Format flag:** `TecFest26{usernameIG_kodegit_namajalan}`
 > Huruf kecil semua, tanpa spasi dan tanpa tanda aksen, gunakan underscore.
 > Contoh format nama jalan: `rue_de_rivoli` (bukan `Rue de Rivoli`).
 >
