@@ -4,8 +4,6 @@
 |---|---|
 | Kategori | OSINT |
 | Kesulitan | Medium |
-| Poin | 200 |
-| Estimasi waktu | 20-40 menit |
 | Attachment | Tidak ada |
 | Format flag | `TecFest26{kata_kode_namajalan}` |
 
@@ -27,24 +25,9 @@
 
 ## Hint (opsional)
 
-| Hint | Isi | Pengurangan poin |
+| Hint | Isi |
 |---|---|---|
-| 1 | "Cari handle Instagram tadi di GitHub. Ada akun yang namanya mirip." | -10 |
-| 2 | "Nama repo merujuk julukan karakter ikoniknya, bukan judul filmnya." | -15 |
-| 3 | "Sesuatu yang dihapus belum tentu hilang. Periksa riwayat commit." | -20 |
-| 4 | "Yang ditanyakan adalah jalan tempat fotografer berdiri, bukan nama monumennya." | -30 |
-
-## Flag Final (Catatan Panitia)
-
-Berdasarkan setup repositori yang sudah kamu jalankan (`CODENAME="webslinger"` dan `TICKET="0417"`), struktur flag finalnya adalah:
-
-```text
-TecFest26{webslinger_0417_<namajalan>}
-```
-
-**Contoh jika titik foto berada di Quai Branly:**
-```text
-TecFest26{webslinger_0417_quai_branly}
-```
-
-> **Penting:** Ganti `<namajalan>` dengan nama jalan resmi di Google Maps tempat sudut foto `venue_final.jpg` milikmu diambil (gunakan huruf kecil semua, ganti spasi dengan `_`, dan hilangkan tanda aksen Prancis seperti `é` menjadi `e`).
+| 1 | "Cari handle Instagram tadi di GitHub. Ada akun yang namanya mirip." |
+| 2 | "Nama repo merujuk julukan karakter ikoniknya, bukan judul filmnya." |
+| 3 | "Sesuatu yang dihapus belum tentu hilang. Periksa riwayat commit." | 
+| 4 | "Yang ditanyakan adalah jalan tempat fotografer berdiri, bukan nama monumennya." |
