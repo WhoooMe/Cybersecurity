@@ -88,3 +88,11 @@ TecFest26{webslinger_0417_<namajalan>}
 - Pastikan file yang masuk ke commit 4 adalah `venue_final.jpg` yang sudah dikonversi dari PNG dan dibersihkan EXIF-nya (`exiftool -all= venue_final.jpg`).
 - Tes gambar `venue_final.jpg` di Google Lens untuk memastikan tidak langsung terpecahkan secara instan lewat reverse image search.
 - Pastikan titik jalan yang dipilih tidak berada di persimpangan ambigu sehingga hanya ada satu nama jalan yang valid untuk kunci jawaban.
+
+## Flag Final (Catatan Panitia)
+
+Berdasarkan setup repositori yang sudah kamu jalankan (`CODENAME="webslinger"` dan `TICKET="0417"`), struktur flag finalnya adalah:
+
+```text
+TecFest26{webslinger_0417_Champ_de_Mars}
+```
