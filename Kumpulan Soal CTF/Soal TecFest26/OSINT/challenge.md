@@ -4,10 +4,9 @@
 |---|---|
 | Kategori | OSINT |
 | Kesulitan | Medium |
-| Poin | 200 |
 | Estimasi waktu | 20-40 menit |
 | Attachment | tidak ada |
-| Format flag | `TecFest26{kata_kode_namajalan}` |
+| Format flag | `TecFest26{handlerig_kodegit_namajalan}` |
 
 ## Deskripsi (untuk peserta)
 
@@ -17,7 +16,7 @@
 >
 > Susun tiga potongan yang kamu temukan menjadi satu flag.
 >
-> **Format flag:** `TecFest26{kata_kode_namajalan}`
+> **Format flag:** `TecFest26{handlerig_kodegit_namajalan}`
 > Huruf kecil semua, tanpa spasi dan tanpa tanda aksen, gunakan underscore.
 > Contoh format nama jalan: `rue_de_rivoli` (bukan `Rue de Rivoli`).
 >
@@ -25,17 +24,9 @@
 
 ## Hint (opsional)
 
-| Hint | Isi | Pengurangan poin |
-|---|---|---|
-| 1 | "Cari handle Instagram tadi di GitHub. Ada akun yang namanya mirip." | -10 |
-| 2 | "Nama repo merujuk julukan karakter ikoniknya, bukan judul filmnya." | -15 |
-| 3 | "Sesuatu yang dihapus belum tentu hilang. Periksa riwayat commit." | -20 |
-| 4 | "Yang ditanyakan adalah jalan tempat fotografer berdiri, bukan nama monumennya." | -30 |
-
-## Flag
-
-```
-TecFest26{webslinger_0417_quai_branly}
-```
-
-> Nilai di atas adalah **contoh**. Sesuaikan dengan isi repo dan foto yang benar-benar kamu pakai.
+| Hint | Isi |
+|---|---|
+| 1 | "Cari handle Instagram tadi di GitHub. Ada akun yang namanya mirip." |
+| 2 | "Nama repo merujuk julukan karakter ikoniknya, bukan judul filmnya." |
+| 3 | "Sesuatu yang dihapus belum tentu hilang. Periksa riwayat commit." |
+| 4 | "Yang ditanyakan adalah jalan tempat fotografer berdiri, bukan nama monumennya." | 
